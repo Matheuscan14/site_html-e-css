@@ -1,0 +1,85 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Apresentacao do Evento */
+#about-container{
+    flex: 1.4;
+    padding: 2rem 4rem;
+}
+
+#brand{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+#brand img{
+    height: 50px;
+    margin: 0.6rem;
+}
+
+#exclusive{
+    text-transform: uppercase;
+    color: #0075ff;
+    font-weight: bolder;
+    font-size: 0,9rem;
+    margin-bottom: 1rem;
+}
+
+#about-container {
+    font-size: 1.4rem;
+    max-width: 500rem;
+    margin-bottom: 1rem;
+}
+
+#date{
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: bolder;
+    max-width: 500rem;
+    margin-bottom: 1rem
+}
+
+#description{
+    max-width: 50rem;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#about-container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#users-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.user-card {
+    border: 2px solid #ccc;
+    padding: 1rem;
+    width: 180px;
+    text-align: center;
+}
+
+.user-card img{
+    width: 120px;
+}
+
+/* Formulario */
+#form-container{
+    flex: 0;
+}
